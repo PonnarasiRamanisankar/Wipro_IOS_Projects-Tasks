@@ -1,0 +1,45 @@
+
+public class RestaurantBillCalculator {
+
+    public static void main(String[] args) {
+
+        double itemPrice = 450.0;
+        int quantity = 3;
+
+        double subtotal = itemPrice * (double) quantity;
+
+   
+        boolean hasCoupon = true;
+
+        double discount = (hasCoupon && subtotal > 1000)
+                ? subtotal * 0.10
+                : 0.0;
+
+
+        double discountedAmount = subtotal - discount;
+        double gst = discountedAmount * 0.18;
+
+        double total = discountedAmount + gst;
+
+        int people = 4;
+        double share = total / people;
+        int amount = 1234;
+        int hundreds = amount / 100;
+        int remainder = amount % 100;
+
+        System.out.println("===== RESTAURANT BILL =====");
+        System.out.println("Item Price       : Rs. " + itemPrice);
+        System.out.println("Quantity         : " + quantity);
+        System.out.printf("Subtotal         : Rs. %.2f%n", subtotal);
+        System.out.printf("Discount         : Rs. %.2f%n", discount);
+        System.out.printf("Discounted Amount: Rs. %.2f%n", discountedAmount);
+        System.out.printf("GST (18%%)        : Rs. %.2f%n", gst);
+        System.out.printf("Total Bill       : Rs. %.2f%n", total);
+        System.out.printf("Each Person Pays : Rs. %.2f%n", share);
+
+        System.out.println("\n===== INTEGER OPERATORS =====");
+        System.out.println("Amount            : Rs. " + amount);
+        System.out.println("Hundreds          : " + hundreds);
+        System.out.println("Remainder          : Rs. " + remainder);
+    }
+}
