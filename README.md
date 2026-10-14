@@ -69,4 +69,7 @@ TASK 13: Practice Task, Safe number parsing
           <img width="382" height="167" alt="image" src="https://github.com/user-attachments/assets/d3155c8b-ba8f-440e-81d7-3b61749cfdda" />
 
 TASK 14: Debug Task, Remove the crashes 
+
+           <img width="530" height="150" alt="image" src="https://github.com/user-attachments/assets/00f2688e-c8c6-41ad-a7b1-059bc7938508" />
+
            
