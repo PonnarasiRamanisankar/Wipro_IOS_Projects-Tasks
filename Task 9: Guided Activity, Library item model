@@ -1,0 +1,72 @@
+
+import Foundation
+
+// 1. Create an enum for book status
+enum BookStatus {
+    case available
+    case borrowed(by: String, dueIns: Int)
+    case reserved(for: String)
+
+    // 2. Computed property using switch
+    var label: String {
+        switch self {
+        case .available:
+            return "Available"
+
+        case .borrowed(let name, let days):
+            return "Borrowed by \(name), due in \(days) days"
+
+        case .reserved(let name):
+            return "Reserved for \(name)"
+        }
+    }
+}
+
+// 3. Create a Book struct
+struct Book {
+    var title: String
+    var status: BookStatus = .available
+}
+
+// 4. Create a Member class
+class Member {
+    var name: String
+    var borrowedBooks: [String]
+
+    init(name: String, borrowedBooks: [String] = []) {
+        self.name = name
+        self.borrowedBooks = borrowedBooks
+    }
+}
+
+// Display enum cases
+print("----- Book Status -----")
+let status1 = BookStatus.available
+let status2 = BookStatus.borrowed(by: "Anu", dueIns: 5)
+let status3 = BookStatus.reserved(for: "Ben")
+
+print(status1.label)
+print(status2.label)
+print(status3.label)
+
+// 5. Copy a struct and change the copy
+print("\n----- Struct: Value Type -----")
+var book1 = Book(title: "Swift Fundamentals")
+var book2 = book1
+
+book2.status = .borrowed(by: "Anu", dueIns: 5)
+
+print("Original book:", book1.title, "-", book1.status.label)
+print("Copied book:", book2.title, "-", book2.status.label)
+
+// 6. Assign a class instance to a second constant
+print("\n----- Class: Reference Type -----")
+let member1 = Member(name: "Anu", borrowedBooks: ["Swift Fundamentals"])
+let member2 = member1
+
+member2.name = "Priya"
+
+print("Member 1 name:", member1.name)
+print("Member 2 name:", member2.name)
+print("Member 1 borrowed books:", member1.borrowedBooks)
+print("Member 2 borrowed books:", member2.borrowedBooks)
