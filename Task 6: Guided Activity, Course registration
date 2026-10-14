@@ -1,0 +1,59 @@
+
+import Foundation
+
+// 1. Array: Ordered collection of subjects
+var subjects = ["Swift", "UIKit", "SwiftUI"]
+
+subjects.append("Networking")
+subjects.insert("Testing", at: 1)
+
+// Remove UIKit
+if let index = subjects.firstIndex(of: "UIKit") {
+    subjects.remove(at: index)
+}
+
+// Print sorted array
+print("Sorted subjects:", subjects.sorted())
+
+
+// 2. Set: Stores unique student names
+var registered: Set<String> = ["Arun", "Priya", "Kavi"]
+
+registered.insert("Priya")
+registered.insert("Priya")
+
+print("Registered students:", registered)
+print("Total unique students:", registered.count)
+
+
+// 3. Dictionary: Student marks
+var marks: [String: Int] = [
+    "Arun": 85,
+    "Priya": 92,
+    "Kavi": 78
+]
+
+// Add a new student
+marks["Rahul"] = 88
+
+// Update an existing student's mark
+marks["Kavi"] = 82
+
+// Read a student who is not in the dictionary
+let unknownMark = marks["Meena"]
+print("Meena's mark:", unknownMark as Any)
+
+
+// 4. Print dictionary in student-name order
+print("Student marks:")
+for name in marks.keys.sorted() {
+    print("\(name): \(marks[name]!)")
+}
+
+
+// 5. Find the highest mark and student name
+if let highest = marks.max(by: { $0.value < $1.value }) {
+    print("Highest mark:", highest.value)
+    print("Top student:", highest.key)
+}
+Task 1: Guided Activity, Course registration 
