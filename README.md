@@ -1,4 +1,4 @@
-                                   Swift Fundamentals: Variables and Constants
+                                  ** Swift Fundamentals: Variables and Constants**
 
 TASK 1:Student Profile Card
 
@@ -11,3 +11,14 @@ TASK 2:Practice Task, Temperature converter
 TASK 3:Debug Task, Fix the compile errors
 
          <img width="486" height="207" alt="image" src="https://github.com/user-attachments/assets/5613cef0-3b92-4b60-a505-f23d36b36af8" />
+
+
+
+                                          ** Operators and Expressions **
+
+TASK 4: Practice Task, Leap year and range checks 
+
+           <img width="605" height="202" alt="image" src="https://github.com/user-attachments/assets/7fd4e8d3-4d3c-4c07-b747-c91aa30300b9" />
+
+
+          
