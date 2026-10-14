@@ -57,4 +57,11 @@ TASK 11: Challenge Task, Why does this not compile?
                       <img width="513" height="180" alt="image" src="https://github.com/user-attachments/assets/053b0e7c-3652-419a-9fca-51fd7fc70371" />
 
 
+                                            ** Optionals and Optional Handling **
+
+TASK 12: Guided Activity, User profile with missing data 
+
+          <img width="536" height="170" alt="image" src="https://github.com/user-attachments/assets/138365ae-7cc8-4613-aab9-f5c5c15d9670" />
+
+
               
