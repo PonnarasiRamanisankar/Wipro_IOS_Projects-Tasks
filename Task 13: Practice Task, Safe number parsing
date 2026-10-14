@@ -1,0 +1,22 @@
+
+import Foundation
+
+let values = ["10", "x", "25", "", "7.5", "40"]
+
+// (a) Convert strings to integers and remove invalid values
+let validIntegers = values.compactMap { Int($0) }
+print("Valid integers:", validIntegers)
+
+// (b) Calculate the sum
+let sum = validIntegers.reduce(0, +)
+print("Sum:", sum)
+
+// (c) Count invalid entries
+let invalidCount = values.count - validIntegers.count
+print("Invalid entries:", invalidCount)
+
+// (d) Double the first valid number using map on an optional
+let firstValid = validIntegers.first
+let doubled = firstValid.map { $0 * 2 }
+
+print("First valid number doubled:", doubled as Any)
