@@ -37,3 +37,6 @@ TASK 7: Practice Task, Word frequency counter
 TASK 8: Challenge Task, Set algebra and de-duplication
 
               <img width="592" height="245" alt="image" src="https://github.com/user-attachments/assets/e8b8a961-2ee6-4162-8820-be6e0e3303de" />
+
+
+                                           ** Enumerations, Structures and Classes **
