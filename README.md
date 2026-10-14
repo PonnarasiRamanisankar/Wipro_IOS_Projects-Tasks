@@ -20,5 +20,9 @@ TASK 4: Practice Task, Leap year and range checks
 
            <img width="605" height="202" alt="image" src="https://github.com/user-attachments/assets/7fd4e8d3-4d3c-4c07-b747-c91aa30300b9" />
 
+TASK 5: Predict Task, What does it print?
+
+            <img width="1217" height="480" alt="image" src="https://github.com/user-attachments/assets/fdf834cf-817d-4806-b735-f269ff89e441" />
+
 
           
