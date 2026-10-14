@@ -1,0 +1,69 @@
+/*
+struct Counter {
+    var value = 0
+
+    mutating func increment() {
+        value += 1
+    }
+}
+
+class Box {
+    var value = 0
+
+    func increment() {
+        value += 1
+    }
+}
+
+let c = Counter()
+c.increment()  // Compile error
+
+let b = Box()
+b.increment()  // Works
+*/
+
+
+Correct Code:
+               
+                      import Foundation
+                      
+                      struct Counter {
+                          var value = 0
+                      
+                          mutating func increment() {
+                              value += 1
+                          }
+                      }
+                      
+                      class Box {
+                          var value = 0
+                      
+                          func increment() {
+                              value += 1
+                          }
+                      }
+                      
+                      // Fix: Use var for the struct
+                      var c = Counter()
+                      c.increment()
+                      print("Counter value:", c.value)
+                      
+                      // Class example
+                      let b = Box()
+                      b.increment()
+                      print("Box value:", b.value)
+                      
+                      // Two constants referring to the same object
+                      let box1 = Box()
+                      let box2 = box1
+                      
+                      box2.value = 100
+                      
+                      print("Box 1 value:", box1.value)
+                      print("Box 2 value:", box2.value)
+                    
+                    // Identity comparison using ===
+                    print("Same object:", box1 === box2)
+
+
+   
