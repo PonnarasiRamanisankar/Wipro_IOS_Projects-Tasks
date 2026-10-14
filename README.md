@@ -64,4 +64,4 @@ TASK 12: Guided Activity, User profile with missing data
           <img width="536" height="170" alt="image" src="https://github.com/user-attachments/assets/138365ae-7cc8-4613-aab9-f5c5c15d9670" />
 
 
-              
+TASK 13: Practice Task, Safe number parsing             
