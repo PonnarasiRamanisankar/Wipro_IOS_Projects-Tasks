@@ -30,6 +30,10 @@ TASK 6: Guided Activity, Course registration
 
             <img width="560" height="377" alt="image" src="https://github.com/user-attachments/assets/8e1bb60b-331c-47cb-863f-c5ff1d1b5d5b" />
 
- TASK 7: Practice Task, Word frequency counter
-             <img width="597" height="366" alt="image" src="https://github.com/user-attachments/assets/dae2bc22-6ca8-48e2-8a86-2f22d8023c62" />
+TASK 7: Practice Task, Word frequency counter
 
+             <img width="597" height="366" alt="image" src="https://github.com/user-attachments/assets/dae2bc22-6ca8-48e2-8a86-2f22d8023c62" />
+ 
+TASK 8: Challenge Task, Set algebra and de-duplication
+
+              <img width="592" height="245" alt="image" src="https://github.com/user-attachments/assets/e8b8a961-2ee6-4162-8820-be6e0e3303de" />
