@@ -1,0 +1,17 @@
+
+let scores = ["Asha": 90, "Ravi": 72]
+
+// Safely look up Kiran's score
+if let kiran = scores["Kiran"] {
+    print("Kiran's score: \(kiran)")
+
+    // Safely convert the string to an integer
+    if let number = Int("12a") {
+        print("Total: \(kiran + number)")
+    } else {
+        print("Error: '12a' is not a valid integer.")
+    }
+
+} else {
+    print("Error: Kiran's score was not found.")
+}
