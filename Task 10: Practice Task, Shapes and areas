@@ -1,0 +1,68 @@
+
+import Foundation
+
+// 1. Enum Shape with associated values
+enum Shape {
+    case circle(radius: Double)
+    case rectangle(width: Double, height: Double)
+    case triangle(base: Double, height: Double)
+
+    // Computed property to calculate area
+    var area: Double {
+        switch self {
+        case .circle(let radius):
+            return Double.pi * radius * radius
+
+        case .rectangle(let width, let height):
+            return width * height
+
+        case .triangle(let base, let height):
+            return 0.5 * base * height
+        }
+    }
+}
+
+// Create shapes
+let circle = Shape.circle(radius: 5)
+let rectangleShape = Shape.rectangle(width: 4, height: 6)
+let triangle = Shape.triangle(base: 8, height: 5)
+
+print("Circle area:", circle.area)
+print("Rectangle area:", rectangleShape.area)
+print("Triangle area:", triangle.area)
+
+// 2. Struct Rectangle
+struct Rectangle {
+    var width: Double
+    var height: Double
+
+    // Computed property for perimeter
+    var perimeter: Double {
+        return 2 * (width + height)
+    }
+
+    // Mutating method to scale dimensions
+    mutating func scale(by factor: Double) {
+        width *= factor
+        height *= factor
+    }
+}
+
+// 3. Copy a rectangle and scale the copy
+var original = Rectangle(width: 10, height: 5)
+var copy = original
+
+print("\nBefore scaling:")
+print("Original perimeter:", original.perimeter)
+print("Copy perimeter:", copy.perimeter)
+
+copy.scale(by: 2)
+
+print("\nAfter scaling the copy:")
+print("Original width:", original.width)
+print("Original height:", original.height)
+print("Original perimeter:", original.perimeter)
+
+print("Copy width:", copy.width)
+print("Copy height:", copy.height)
+print("Copy perimeter:", copy.perimeter)
