@@ -44,3 +44,7 @@ TASK 8: Challenge Task, Set algebra and de-duplication
 TASK 9: Guided Activity, Library item model
 
               <img width="598" height="342" alt="image" src="https://github.com/user-attachments/assets/a9920709-e422-4c7f-a3d5-1e42fbd694ff" />
+
+ TASK 10: Practice Task, Shapes and areas 
+
+              <img width="562" height="376" alt="image" src="https://github.com/user-attachments/assets/557f1cec-b617-43ac-ae5e-f45d8cac5744" />
