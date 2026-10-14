@@ -25,4 +25,9 @@ TASK 5: Predict Task, What does it print?
             <img width="1217" height="480" alt="image" src="https://github.com/user-attachments/assets/fdf834cf-817d-4806-b735-f269ff89e441" />
 
 
-          
+                                            ** Swift Collections **
+TASK 6: Guided Activity, Course registration
+
+            <img width="560" height="377" alt="image" src="https://github.com/user-attachments/assets/8e1bb60b-331c-47cb-863f-c5ff1d1b5d5b" />
+
+  
