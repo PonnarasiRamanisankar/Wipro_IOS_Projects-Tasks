@@ -1,0 +1,57 @@
+
+import Foundation
+
+// 1. Create Address struct
+struct Address {
+    var city: String?
+}
+
+// Create User struct
+struct User {
+    var name: String
+    var age: Int?
+    var address: Address?
+}
+
+// 2. Describe a user safely
+func describe(_ user: User) -> String {
+    // Stop early if age is missing
+    guard let age = user.age else {
+        return "\(user.name): Age is unknown"
+    }
+
+    // 3. Optional chaining and nil-coalescing
+    let city = user.address?.city ?? "unknown city"
+
+    return "Name: \(user.name), Age: \(age), City: \(city)"
+}
+
+// 4. Create three users
+let user1 = User(
+    name: "Asha",
+    age: 22,
+    address: Address(city: "Chennai")
+)
+
+let user2 = User(
+    name: "Ravi",
+    age: nil,
+    address: Address(city: "Bengaluru")
+)
+
+let user3 = User(
+    name: "Kiran",
+    age: 20,
+    address: Address(city: nil)
+)
+
+print(describe(user1))
+print(describe(user2))
+print(describe(user3))
+
+// 5. Convert strings to optional integers
+let number1 = Int("42")
+let number2 = Int("abc")
+
+print("Int(42):", number1 as Any)
+print("Int(abc):", number2 as Any)
