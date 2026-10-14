@@ -48,3 +48,13 @@ TASK 9: Guided Activity, Library item model
  TASK 10: Practice Task, Shapes and areas 
 
               <img width="562" height="376" alt="image" src="https://github.com/user-attachments/assets/557f1cec-b617-43ac-ae5e-f45d8cac5744" />
+
+TASK 11: Challenge Task, Why does this not compile?
+            The error occurs at:c.increment()
+                      Reason: c is declared with let, making the struct value immutable. Its increment() method is marked mutating, so calling it requires a                                     mutable struct variable.
+                      <img width="772" height="182" alt="image" src="https://github.com/user-attachments/assets/ca51f286-a36e-4803-ab6c-85d9919e2de4" />
+            Fix: Change let c to var c.
+                      <img width="513" height="180" alt="image" src="https://github.com/user-attachments/assets/053b0e7c-3652-419a-9fca-51fd7fc70371" />
+
+
+              
