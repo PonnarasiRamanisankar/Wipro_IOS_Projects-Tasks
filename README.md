@@ -65,3 +65,8 @@ TASK 12: Guided Activity, User profile with missing data
 
 
 TASK 13: Practice Task, Safe number parsing             
+
+          <img width="382" height="167" alt="image" src="https://github.com/user-attachments/assets/d3155c8b-ba8f-440e-81d7-3b61749cfdda" />
+
+TASK 14: Debug Task, Remove the crashes 
+           
