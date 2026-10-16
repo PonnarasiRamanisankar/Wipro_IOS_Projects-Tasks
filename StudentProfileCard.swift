@@ -1,7 +1,7 @@
 import Foundation
 
 @main
-struct Main {
+struct StudentProfile {
 
     static func main() {
 
@@ -13,12 +13,25 @@ struct Main {
 
         let isHosteller = true
 
-        print("Name: \(studentName), RollNumber: \(rollNumber), Semester: \(semester), CGPA: \(cgpa)")
+        print("Name: \(studentName)")
+        print("Roll Number: \(rollNumber)")
+        print("Semester: \(semester)")
+        print("CGPA: \(cgpa)")
+        print("Hosteller: \(isHosteller)")
 
-        print("Type of Student:", type(of: studentName))
-        print("Type of RollNumber:", type(of: rollNumber))
-        print("Type of Semester:", type(of: semester))
-        print("Type of CGPA:", type(of: cgpa))
-        print("Type of isHosteller:", type(of: isHosteller))
+        print()
+
+        print("Type of Student Name: \(type(of: studentName))")
+        print("Type of Roll Number: \(type(of: rollNumber))")
+        print("Type of Semester: \(type(of: semester))")
+        print("Type of CGPA: \(type(of: cgpa))")
+        print("Type of isHosteller: \(type(of: isHosteller))")
+
+        semester += 1
+        cgpa = 8.79
+
+        print()
+        print("Updated Semester: \(semester)")
+        print("Updated CGPA: \(cgpa)")
     }
 }
