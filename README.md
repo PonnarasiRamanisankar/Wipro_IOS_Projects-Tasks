@@ -1,6 +1,6 @@
                                   ** Swift Fundamentals: Variables and Constants**
 
-TASK 1:Student Profile Card
+TASK 1:Student Profile Card      <img width="907" height="661" alt="image" src="https://github.com/user-attachments/assets/0b4d560a-82c7-49d2-9ade-637d9d6b6949" />
 
         <img width="907" height="661" alt="image" src="https://github.com/user-attachments/assets/0b4d560a-82c7-49d2-9ade-637d9d6b6949" />
 
