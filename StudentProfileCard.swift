@@ -1,27 +1,24 @@
 import Foundation
 
-func studentProfile() {
+@main
+struct Main {
 
-    let studentName = "Ponnarasi"
-    let rollNumber: Int = 238
+    static func main() {
 
-    var semester: Int = 5
-    var cgpa: Double = 8.89
+        let studentName = "Rohan"
+        let rollNumber = 2398
 
-    let isHosteller: Bool = true
+        var semester = 5
+        var cgpa = 8.89
 
-    print("Name: \(studentName), Roll: \(rollNumber), Semester: \(semester)")
+        let isHosteller = true
 
-    semester += 1
-    cgpa = 8.79
+        print("Name: \(studentName), RollNumber: \(rollNumber), Semester: \(semester), CGPA: \(cgpa)")
 
-    print("Name: \(studentName), Roll: \(rollNumber), Semester: \(semester), CGPA: \(cgpa)")
-
-    print("Type of studentName:", type(of: studentName))
-    print("Type of rollNumber:", type(of: rollNumber))
-    print("Type of semester:", type(of: semester))
-    print("Type of cgpa:", type(of: cgpa))
-    print("Type of isHosteller:", type(of: isHosteller))
+        print("Type of Student:", type(of: studentName))
+        print("Type of RollNumber:", type(of: rollNumber))
+        print("Type of Semester:", type(of: semester))
+        print("Type of CGPA:", type(of: cgpa))
+        print("Type of isHosteller:", type(of: isHosteller))
+    }
 }
-
-studentProfile()
