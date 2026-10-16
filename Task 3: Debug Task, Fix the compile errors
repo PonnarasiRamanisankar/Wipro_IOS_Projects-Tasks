@@ -1,12 +1,23 @@
 import Foundation
-var price = 250
-var quantity: Int = 3
-let taxRate = 0.18
-price = 300
-let subtotal = Double(price) * Double(quantity)
-let total = subtotal * (1 + taxRate)
-var title = "Order"
-title = "Updated Order"
-print("Title: \(title)")
-print("Subtotal: \(String(format: "%.2f", subtotal))")
-print("Total including tax: \(String(format: "%.2f", total))")
+
+@main
+struct fixError{
+  static func main(){
+    var price: Double = 300.0
+    let quantity: Int = 3
+    let taxRate: Double = 0.18
+
+    var title: String = "Order"
+    title = "Updated Order"
+
+    let subtotal = price * Double(quantity)
+    let tax = subtotal * taxRate
+    let total = subtotal + tax
+
+    print("Title: \(title)")
+    print("Price: \(price)")
+    print("Quantity: \(quantity)")
+    print("Tax: \(tax)")
+    print("Total including tax: \(String(format: "%.2f", total))")
+}
+}
