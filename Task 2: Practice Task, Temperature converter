@@ -1,31 +1,32 @@
 import Foundation
 
 @main
-struct Main {
+struct TemperatureConverter {
 
     static func main() {
 
-        let fahrenheitFactor = 9.0 / 5.0
+        let fahrenheitScale = 9.0 / 5.0
         let fahrenheitOffset = 32.0
         let kelvinOffset = 273.15
 
-        func convertTemperature(_ celsius: Double) {
-            let fahrenheit = celsius * fahrenheitFactor + fahrenheitOffset
-            let kelvin = celsius + kelvinOffset
+        func printTemperatures(c: Double) {
 
-            print("Celsius: \(String(format: "%.1f", celsius)) °C")
+            let fahrenheit = c * fahrenheitScale + fahrenheitOffset
+            let kelvin = c + kelvinOffset
+
+            print("Celsius: \(String(format: "%.1f", c)) °C")
             print("Fahrenheit: \(String(format: "%.1f", fahrenheit)) °F")
             print("Kelvin: \(String(format: "%.1f", kelvin)) K")
+            print()
         }
 
         var celsius = 25.0
+        printTemperatures(c: celsius)
 
-        convertTemperature(celsius)
+        celsius = 37.0
+        printTemperatures(c: celsius)
 
-        print(" ")
-
-        celsius = 35.0
-
-        convertTemperature(celsius)
+        celsius = -10.0
+        printTemperatures(c: celsius)
     }
 }
