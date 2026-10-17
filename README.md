@@ -45,15 +45,15 @@ TASK 10: Guided Activity, Library item model
 
               
 TASK 11: Practice Task, Shapes and areas
- <img width="562" height="376" alt="image" src="https://github.com/user-attachments/assets/557f1cec-b617-43ac-ae5e-f45d8cac5744" />
+<img width="562" height="376" alt="image" src="https://github.com/user-attachments/assets/557f1cec-b617-43ac-ae5e-f45d8cac5744" />
 
 
 TASK 12: Challenge Task, Why does this not compile?
             The error occurs at:c.increment()
-                      Reason: c is declared with let, making the struct value immutable. Its increment() method is marked mutating, so calling it requires a                                     mutable struct variable.
-                      <img width="772" height="182" alt="image" src="https://github.com/user-attachments/assets/ca51f286-a36e-4803-ab6c-85d9919e2de4" />
+                      Reason: c is declared with let, making the struct value immutable. Its increment() method is marked   mutating, so calling it requires a mutable struct variable.
+ <img width="772" height="182" alt="image" src="https://github.com/user-attachments/assets/ca51f286-a36e-4803-ab6c-85d9919e2de4" />
             Fix: Change let c to var c.
-                      <img width="513" height="180" alt="image" src="https://github.com/user-attachments/assets/053b0e7c-3652-419a-9fca-51fd7fc70371" />
+ <img width="513" height="180" alt="image" src="https://github.com/user-attachments/assets/053b0e7c-3652-419a-9fca-51fd7fc70371" />
 
 
                                             ** Optionals and Optional Handling **
@@ -66,7 +66,7 @@ TASK 14: Practice Task, Safe number parsing
 <img width="382" height="167" alt="image" src="https://github.com/user-attachments/assets/d3155c8b-ba8f-440e-81d7-3b61749cfdda" />
       
 
-TASK 15: Debug Task, Remove the crashes 
-           <img width="530" height="150" alt="image" src="https://github.com/user-attachments/assets/00f2688e-c8c6-41ad-a7b1-059bc7938508" />
+TASK 15: Debug Task, Remove the crashes      
+<img width="530" height="150" alt="image" src="https://github.com/user-attachments/assets/00f2688e-c8c6-41ad-a7b1-059bc7938508" />
 
            
