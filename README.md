@@ -13,6 +13,7 @@ TASK 3:Debug Task, Fix the compile errors
       
 
                                           ** Operators and Expressions **
+                                          
 TASK 4: Guided Activity, Restaurant bill calculator 
 <img width="411" height="198" alt="image" src="https://github.com/user-attachments/assets/efb8d2e9-690d-456a-ab5d-84a181bb42a6" />
 
@@ -45,14 +46,18 @@ TASK 10: Guided Activity, Library item model
 
               
 TASK 11: Practice Task, Shapes and areas
-<img width="562" height="376" alt="image" src="https://github.com/user-attachments/assets/557f1cec-b617-43ac-ae5e-f45d8cac5744" />
+ <img width="562" height="376" alt="image" src="https://github.com/user-attachments/assets/557f1cec-b617-43ac-ae5e-f45d8cac5744" />
 
 
 TASK 12: Challenge Task, Why does this not compile?
-            The error occurs at:c.increment()
+
+The error occurs at:c.increment()
+
                       Reason: c is declared with let, making the struct value immutable. Its increment() method is marked   mutating, so calling it requires a mutable struct variable.
+                      
  <img width="772" height="182" alt="image" src="https://github.com/user-attachments/assets/ca51f286-a36e-4803-ab6c-85d9919e2de4" />
-            Fix: Change let c to var c.
+
+ Fix: Change let c to var c.
  <img width="513" height="180" alt="image" src="https://github.com/user-attachments/assets/053b0e7c-3652-419a-9fca-51fd7fc70371" />
 
 
