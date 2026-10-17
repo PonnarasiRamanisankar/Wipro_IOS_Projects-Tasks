@@ -4,61 +4,50 @@ TASK 1:Student Profile Card
 <img width="907" height="661" alt="image" src="https://github.com/user-attachments/assets/0b4d560a-82c7-49d2-9ade-637d9d6b6949" />
 
         
-
 TASK 2:Practice Task, Temperature converter  
 <img width="1232" height="616" alt="image" src="https://github.com/user-attachments/assets/d2781720-c0d6-403a-b9f7-f97397e22152" />
 
          
-
 TASK 3:Debug Task, Fix the compile errors   
 <img width="486" height="207" alt="image" src="https://github.com/user-attachments/assets/5613cef0-3b92-4b60-a505-f23d36b36af8" />
-
-        
-
-
+      
 
                                           ** Operators and Expressions **
+TASK 4: Guided Activity, Restaurant bill calculator 
+<img width="411" height="198" alt="image" src="https://github.com/user-attachments/assets/efb8d2e9-690d-456a-ab5d-84a181bb42a6" />
+
 
 TASK 5: Practice Task, Leap year and range checks 
 <img width="605" height="202" alt="image" src="https://github.com/user-attachments/assets/7fd4e8d3-4d3c-4c07-b747-c91aa30300b9" />
 
-           
-
+        
 TASK 6: Predict Task, What does it print? 
 <img width="1217" height="480" alt="image" src="https://github.com/user-attachments/assets/fdf834cf-817d-4806-b735-f269ff89e441" />
-
-
-            
+           
 
                                             ** Swift Collections **
 TASK 7: Guided Activity, Course registration   
 <img width="560" height="377" alt="image" src="https://github.com/user-attachments/assets/8e1bb60b-331c-47cb-863f-c5ff1d1b5d5b" />
 
-
-           
+          
 TASK 8: Practice Task, Word frequency counter       
 <img width="597" height="366" alt="image" src="https://github.com/user-attachments/assets/dae2bc22-6ca8-48e2-8a86-2f22d8023c62" />
-
  
  
 TASK 9: Challenge Task, Set algebra and de-duplication 
 <img width="592" height="245" alt="image" src="https://github.com/user-attachments/assets/e8b8a961-2ee6-4162-8820-be6e0e3303de" />
 
               
-
-
-                                           ** Enumerations, Structures and Classes **
+                                          ** Enumerations, Structures and Classes **
 
 TASK 10: Guided Activity, Library item model 
 <img width="598" height="342" alt="image" src="https://github.com/user-attachments/assets/a9920709-e422-4c7f-a3d5-1e42fbd694ff" />
 
               
-
- TASK 11: Practice Task, Shapes and areas
+TASK 11: Practice Task, Shapes and areas
  <img width="562" height="376" alt="image" src="https://github.com/user-attachments/assets/557f1cec-b617-43ac-ae5e-f45d8cac5744" />
 
 
- 
 TASK 12: Challenge Task, Why does this not compile?
             The error occurs at:c.increment()
                       Reason: c is declared with let, making the struct value immutable. Its increment() method is marked mutating, so calling it requires a                                     mutable struct variable.
@@ -73,13 +62,10 @@ TASK 13: Guided Activity, User profile with missing data
 <img width="536" height="170" alt="image" src="https://github.com/user-attachments/assets/138365ae-7cc8-4613-aab9-f5c5c15d9670" />
 
 
- 
-
 TASK 14: Practice Task, Safe number parsing    
 <img width="382" height="167" alt="image" src="https://github.com/user-attachments/assets/d3155c8b-ba8f-440e-81d7-3b61749cfdda" />
       
 
- 
 TASK 15: Debug Task, Remove the crashes 
            <img width="530" height="150" alt="image" src="https://github.com/user-attachments/assets/00f2688e-c8c6-41ad-a7b1-059bc7938508" />
 
